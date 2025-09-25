@@ -26,6 +26,8 @@
 		ADA8AC142329367300626376 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADA8AC162329367300626376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADA8AC1F2329398300626376 /* CoinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinManager.swift; sourceTree = "<group>"; };
+		F22DE2FA2E8571F200F3B8BA /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = .gitignore; sourceTree = "<group>"; };
+		F22DE2FB2E85726400F3B8BA /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,8 @@
 		ADA8ABFC2329367100626376 = {
 			isa = PBXGroup;
 			children = (
+				F22DE2FB2E85726400F3B8BA /* Config.xcconfig */,
+				F22DE2FA2E8571F200F3B8BA /* .gitignore */,
 				ADA8AC072329367100626376 /* ByteCoin */,
 				ADA8AC062329367100626376 /* Products */,
 			);

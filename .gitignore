@@ -1,0 +1,5 @@
+# Xcode
+Config.xcconfig
+Secrets.plist
+Info.plist
+ByteCoin/Info.plist
