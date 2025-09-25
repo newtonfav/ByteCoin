@@ -46,7 +46,10 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     func didUpdatePrice(_ coinManager: CoinManager, coinData: CoinModel) {
         DispatchQueue.main.async {
             self.currencyLabel.text = coinData.currency
-            self.bitcoinLabel.text = String(format: "%.0f", coinData.price)
+            self.bitcoinLabel.text = NumberFormatter.localizedString(
+                from: NSNumber(value: Int(coinData.price)),
+                number: .decimal
+            )
         }
     }
     

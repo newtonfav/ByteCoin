@@ -10,7 +10,7 @@ struct CoinManager {
     let apiKey: String
     var delegate: CoinManagerDelegate?
     let currencyArray = [
-        "USD", "AUD", "BRL", "CAD", "CNY", "EUR", "GBP", "HKD", "IDR", "ILS", "INR",
+        "USD", "AUD", "BRL", "CAD", "EUR", "GBP", "HKD", "ILS", "INR",
         "JPY", "MXN", "NOK", "NZD", "PLN", "RON", "RUB", "SEK", "SGD",
         "ZAR",
     ]
