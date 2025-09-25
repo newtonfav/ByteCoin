@@ -14,6 +14,8 @@
 		ADA8AC122329367300626376 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADA8AC112329367300626376 /* Assets.xcassets */; };
 		ADA8AC152329367300626376 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA8AC132329367300626376 /* LaunchScreen.storyboard */; };
 		ADA8AC202329398300626376 /* CoinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8AC1F2329398300626376 /* CoinManager.swift */; };
+		F22DE2FD2E8581C600F3B8BA /* CoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22DE2FC2E8581C100F3B8BA /* CoinData.swift */; };
+		F22DE2FF2E8588D300F3B8BA /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22DE2FE2E8588CE00F3B8BA /* CoinModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		ADA8AC1F2329398300626376 /* CoinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinManager.swift; sourceTree = "<group>"; };
 		F22DE2FA2E8571F200F3B8BA /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = .gitignore; sourceTree = "<group>"; };
 		F22DE2FB2E85726400F3B8BA /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		F22DE2FC2E8581C100F3B8BA /* CoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinData.swift; sourceTree = "<group>"; };
+		F22DE2FE2E8588CE00F3B8BA /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 		ADA8AC1E2329370F00626376 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F22DE2FE2E8588CE00F3B8BA /* CoinModel.swift */,
+				F22DE2FC2E8581C100F3B8BA /* CoinData.swift */,
 				ADA8AC1F2329398300626376 /* CoinManager.swift */,
 			);
 			path = Model;
@@ -171,7 +177,9 @@
 			files = (
 				ADA8AC202329398300626376 /* CoinManager.swift in Sources */,
 				ADA8AC0D2329367100626376 /* ViewController.swift in Sources */,
+				F22DE2FD2E8581C600F3B8BA /* CoinData.swift in Sources */,
 				ADA8AC092329367100626376 /* AppDelegate.swift in Sources */,
+				F22DE2FF2E8588D300F3B8BA /* CoinModel.swift in Sources */,
 				ADA8AC0B2329367100626376 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
